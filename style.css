@@ -9,6 +9,7 @@ body {
     color: #000;
     margin: 0;
     padding: 0;
+    
 }
 header {
     position: relative;
@@ -32,7 +33,7 @@ nav a {
     gap: 30px;
 }
 .menucentro a {
-    color: black;
+    color: #000000;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
@@ -55,36 +56,30 @@ section h1 {
     font-size: 40px;
     margin-bottom: 10px;
 }
-
-/* Iframe do jogo */
 iframe {
     display: block;
     margin: 0 auto 20px auto;
     border: 5px solid #000;
     max-width: 800px;
-}
-
-/* Link para abrir o jogo */
-p a {
-    display: inline-block;
-    background-color: #ED9703;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-bottom: 40px;
-}
-
-p a:hover {
-    background-color: #cc0000;
-}
-
-/* Rodapé */
-footer {
-    background: url('site/texture.png') repeat; /* Substitua com sua imagem de textura */
-    color: white;
     text-align: center;
-    padding: 40px 0;
-    font-weight: bold;
 }
+.centralizar {
+    text-align: center;
+    margin-top: 50px;
+}
+.novojogo {
+    background: #ED9703;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 4px;
+    color: #000000;
+    transition: all 0.3s;
+}
+.novojogo:hover {
+    color: #FFFFFF;
+
+}
+
