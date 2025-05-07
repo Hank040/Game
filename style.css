@@ -93,10 +93,19 @@ iframe {
 }
 
 .rodape {
+    background-color: #2D0B01;
+    color: #FFF;
     text-align: center;
+    padding: 20px;
     margin-top: 40px;
-    padding: 10px;
-    font-family: sans-serif;
+    border-top: 3px solid #ED9703;
+}
+.rodape2 {
+    max-width: 800px;
+    margin: auto;
+}
+.creditos {
     font-size: 14px;
-    color: #333;
+    margin-top: 10px;
+    opacity: 0.8;
 }
