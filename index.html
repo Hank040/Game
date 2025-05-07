@@ -39,5 +39,12 @@
         </div>
     </footer>
 
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+                event.preventDefault(); // Bloqueia a rolagem
+            }
+        });
+    </script>
 </body>
 </html>

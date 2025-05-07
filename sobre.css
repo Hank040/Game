@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 3px solid #ED9703;
 }
 
 header img {
@@ -46,6 +47,7 @@ header img {
     width: 60%;
     margin: auto;
     text-align: center;
+    min-height: calc(100vh - 339px);
 }
 
 .historia p {
