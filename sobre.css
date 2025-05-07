@@ -8,6 +8,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
+    background-image: url(site/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -17,6 +21,14 @@ header {
     justify-content: center;
     align-items: center;
     border-bottom: 3px solid #ED9703;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #black;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
 }
 
 header img {
