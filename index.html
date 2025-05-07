@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>* Cave Adventurers *</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
@@ -37,7 +36,13 @@
         &copy; 2025 Desenvolvido por Hank040
     </footer>
 
-    <script src="script.js"></script>
-      
+    <script>
+        document.addEventListener("keydown", function(e) {
+            if ([37, 38, 39, 40].includes(e.keyCode)) {
+                e.preventDefault();
+            }
+        }, false);
+    </script>
+ 
 </body>
 </html>

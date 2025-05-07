@@ -66,7 +66,7 @@ iframe {
 }
 #margemjogo {
     background: #2b0a00; 
-    border: 7px solid #a0522d;         
+    border: px solid #a0522d;         
     border-radius: 15px;
     padding: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
@@ -78,6 +78,17 @@ iframe {
 .centralizar {
     text-align: center;
     margin-top: 50px;
+}
+.historia {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.historia p {
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.6;
 }
 .novojogo {
     background: #ED9703;
