@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Cave Adventurers</title>
+    <link rel="stylesheet" type="text/css" href="galeria.css">
+</head>
+<body>
+
+    <header>
+        <a href="index.html" title="Jogo" class="logo">
+            <img src="site/logo.jpg" alt="Logo do Cave Adventurers" title="Logo do Cave Adventurers">
+        </a>
+        <nav class="menucentro">
+            <a href="index.html" title="Jogo">JOGO</a>
+            <a href="sobre.html" title="Sobre">SOBRE</a>
+            <a href="galeria.html" title="galeria">GALERIA</a>
+            <a href="contato.html" title="Contato">CONTATO</a>
+        </nav>
+    </header>
+
+    <section class="galeria">
+        <h1>Galeria de Imagens</h1>
+        <div class="container">
+            <div class="item"><img src="site/imagem1.jpg" alt="Cena do jogo 1"></div>
+            <div class="item"><img src="site/imagem2.jpg" alt="Cena do jogo 2"></div>
+            <div class="item"><img src="site/imagem3.jpg" alt="Cena do jogo 3"></div>
+            <div class="item"><img src="site/imagem4.jpg" alt="Cena do jogo 4"></div>
+            <div class="item"><img src="site/imagem5.jpg" alt="Cena do jogo 5"></div>
+            <div class="item"><img src="site/imagem6.jpg" alt="Cena do jogo 6"></div>
+
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="rodape2">
+            <p>&copy; 2025 Desenvolvido por Hank040</p>
+            <p class="creditos">Projeto inspirado em aventuras clássicas </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+                event.preventDefault(); // Bloqueia a rolagem
+            }
+        });
+    </script>
+</body>
+</html>

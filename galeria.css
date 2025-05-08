@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(site/fundo.jpg);
+    background-size: cover;
+    color: #FFF;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #2D0B01;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid #ED9703;
+}
+
+.galeria {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #000000;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 10px; 
+    align-items: center;
+
+}
+
+.item img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.item img:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.menucentro {
+    display: flex;
+    gap: 50px;
+}
+
+.menucentro a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #ED9703;
+    transition: color 0.3s;
+}
+
+.menucentro a:hover {
+    color: #FFF;
+}
+
+.rodape {
+    background-color: #2D0B01;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    border-top: 3px solid #ED9703;
+}
+
+.rodape2 {
+    max-width: 800px;
+    margin: auto;
+}
+
+.creditos {
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.8;
+}
