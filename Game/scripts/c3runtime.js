@@ -1254,7 +1254,7 @@ function or(l, r)
 self.C3_ExpressionFuncs = [
 		() => "parado",
 		() => 0,
-		() => "06. Reminiscence",
+		() => "musicamenu",
 		() => "andar",
 		() => "pular",
 		() => 10,
@@ -1275,6 +1275,7 @@ self.C3_ExpressionFuncs = [
 			return () => v0.GetValue();
 		},
 		() => 460,
+		() => "fase2",
 		() => 380,
 		() => 1
 ];
