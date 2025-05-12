@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
@@ -13,7 +12,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
-
 header {
     background-color: #2D0B01;
     padding: 10px 40px;
@@ -32,12 +30,10 @@ h1 {
 header img {
     height: 80%;
 }
-
 .menucentro {
     display: flex;
     gap: 50px;
 }
-
 .menucentro a {
     color: #000;
     text-decoration: none;
@@ -48,21 +44,17 @@ header img {
     background-color: #ED9703;
     transition: color 0.3s;
 }
-
 .menucentro a:hover {
     color: #FFF;
 }
-
 section {
     text-align: center;
     padding: 15px;
 }
-
 section h1 {
     font-size: 40px;
     margin-bottom: 10px;
 }
-
 iframe {
     width: 100%;
     aspect-ratio: 16 / 9;
@@ -70,7 +62,6 @@ iframe {
     display: block;
     background-color: #000;
 }
-
 #margemjogo {
     background: #2b0a00;
     border: 5px solid #a0522d;
@@ -81,13 +72,10 @@ iframe {
     margin: 0 auto 20px auto;
     text-align: center;
 }
-
 .centralizar {
     text-align: center;
     margin-top: 50px;
 }
-
-
 .novojogo {
     background: #ED9703;
     text-decoration: none;
@@ -102,12 +90,10 @@ iframe {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
 }
-
 .novojogo:hover {
     color: #FFF;
     background-color: #D88402;
 }
-
 .rodape {
     background-color: #2D0B01;
     color: #FFF;
@@ -125,7 +111,6 @@ iframe {
     margin-top: 10px;
     opacity: 0.8;
 }
-
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -133,35 +118,29 @@ iframe {
         gap: 10px;
         padding: 20px;
     }
-
     .menucentro {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-
     .menucentro a {
         width: 100%;
         text-align: center;
     }
-
     h1, section h1 {
         font-size: 28px;
     }
-
     #margemjogo {
         padding: 10px;
         border-width: 3px;
         border-radius: 10px;
         margin: 10px;
     }
-
     .novojogo {
         font-size: 18px;
         padding: 12px 24px;
         width: 90%;
     }
-
     .rodape2 {
         padding: 0 10px;
     }

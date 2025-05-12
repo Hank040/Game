@@ -18,27 +18,29 @@
             <a href="contato.html" title="Contato">CONTATO</a>
         </nav>
     </header>
-
     <section>
         <h1>Cave Adventurers</h1>
     </section>
-
     <div id="margemjogo">
         <iframe src="Game/index.html" width="100%" height="500" title="Cave Adventurers Game" frameborder="0" allowfullscreen></iframe>
     </div>
-
     <div class="centralizar">
         <a href="Game/index.html" target="_blank" class="novojogo">
-            Abrir Jogo em uma Nova Página
+            Abrir Jogo em Tela Cheia
         </a>
     </div>
-
     <footer class="rodape">
         <div class="rodape2">
-            <p>&copy; 2025 Desenvolvido por Hank040</p>
+            <p>© 2025 Desenvolvido por Renan S. Oliveira</p>
             <p class="creditos">Projeto inspirado em aventuras clássicas </p>
         </div>
     </footer>
-
+    <script>
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'ArrowUp' || event.key === 'ArrowDown') {
+                event.preventDefault(); 
+            }
+        });
+    </script>
 </body>
 </html>

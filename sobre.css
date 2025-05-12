@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
@@ -12,9 +11,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    
 }
-
 header {
     background-color: #2D0B01;
     padding: 10px 40px;
@@ -23,7 +20,6 @@ header {
     align-items: center;
     border-bottom: 3px solid #ED9703;
 }
-
 h1 {
     font-size: 60px;
     font-weight: bold;
@@ -32,16 +28,13 @@ h1 {
     text-align: center;
     text-transform: uppercase;
 }
-
 header img {
     height: 80%;
 }
-
 .menucentro {
     display: flex;
     gap: 50px;
 }
-
 .menucentro a {
     color: #000;
     text-decoration: none;
@@ -52,11 +45,9 @@ header img {
     background-color: #ED9703;
     transition: color 0.3s;
 }
-
 .menucentro a:hover {
     color: #FFF;
 }
-
 .historia {
     width: 60%;
     margin: auto;
@@ -66,7 +57,6 @@ header img {
     padding: 20px;
     border-radius: 8px;
 }
-
 .historia p {
     text-align: left;
     font-size: 20px;
@@ -79,10 +69,7 @@ header img {
 @keyframes fade {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
-
-
 }
-
 .novojogo {
     background: #ED9703;
     text-decoration: none;
@@ -93,7 +80,6 @@ header img {
     transition: color 0.3s;
     display: inline-block;
 }
-
 .rodape {
     background-color: #2D0B01;
     color: #FFF;
@@ -111,38 +97,31 @@ header img {
     margin-top: 10px;
     opacity: 0.8;
 }
-
 @media (max-width: 768px) {
     .historia {
         width: 90%;
         padding: 15px;
     }
-
     h1 {
         font-size: 32px;
     }
-
     .historia p {
         font-size: 16px;
     }
-
     .menucentro {
-        flex-direction: column;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         gap: 10px;
     }
-
     header {
         flex-direction: column;
         padding: 20px;
         gap: 10px;
     }
-
     .menucentro a {
         width: 100%;
         text-align: center;
     }
-
     .rodape2 {
         padding: 0 10px;
     }
